@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/vdo"
+        android:icon="@android:drawable/presence_video_away"
+        android:title="viii"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nav_star"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="star"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="Item"
+        app:showAsAction="always" />
+
+</menu>

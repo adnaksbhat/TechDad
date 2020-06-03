@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/rum"
+    android:layout_height="match_parent"
+    tools:context=".Ar">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="352dp"
+        android:layout_height="274dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="The fourth wave of technology is here and it is already transforming how we interact with the world and with each other. Augmented and virtual reality, (AR, VR) in combination with artificial intelligence (AI) platforms, will accelerate our ability to find solutions for problems previously considered insurmountable. Immersive virtual environments will be the new UI through which we interact with AI platforms, enabling us to visualize and manipulate vast amounts of data in entirely new ways. Patterns, relationships and anomalies will emerge more easily, empowering us to transform how we run our businesses and even create completely new business models.
+
+Investment in mixed reality (the combination of AR and VR) is exploding across industries. According to the IDC, these technologies will generate up to $162 billion in market revenue between now and 2020, with more than half that revenue coming from hardware sales. Gartner predicted that by the year 2020, 100 million consumers will shop in augmented reality and 30% of web browsing sessions will be done without a screen. Gartner recently predicted that AI and machine learning will be one of the top technology trends for 2017 while IDC expects spending to surge past $47 Billion in 2020.
+
+Although VR has been around for over fifty years, consumer adoption has been slow, with most usage in gaming. A new generation’s interest was piqued with PokemonGo, and consumer based products such as PlayStation VR, the plethora of inexpensive VR headsets, and Pixel, the first VR-ready phone by Google continue to generate interest, content, and excitement. The NBA broadcasts a weekly game in VR, online communities are hosting comics and other live events in VR, and Fios has a commercial featuring its AR customer support offering. . But like with AI, rapid growth for both AR/VR will be driven by Enterprise solutions."
+
+
+                android:textColor="#fff"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@mipmap/ar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+
+        android:layout_width="216dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="AR and VR"
+
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        app:fontFamily="@font/alfa_slab_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/rum"
+    tools:context=".Physical">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="352dp"
+        android:layout_height="178dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Modern technology has developed and evolved in such a rapid pace that is quickly replacing the way we’ve known and interacted with many tangible and intangible objects around us. We have seen technology was away many brick and mortar structures, making them a thing of the past with the introduction of online mega-stores such as Amazon.
+It is not surprising to see that many businesses who have failed to adapt to these changes face extreme decline. The most common examples are of declining mall traffic. The Limited, a popular women’s clothing store chain, announced it will be closing all 250 of its stores and has laid off 4,000 workers. However, there is a catch. With one last attempt to adapt tot he changing technologic trends and declining mall traffic, The Limited will still keep a full online presence. Sears and Macy’s, who are also primarily based in malls, have also announced mass closures this year. Sears is planning to close 150 storefronts while Macy’s is planning to close another 100.
+
+With the changing landscape and hardscape of various industry segments, the components design and manufacturers are working hard to accommodate and keep up with such changes. On the other end of the spectrum, Intel has announced its efforts to level the playing field between online retailers and brick and mortar shops by introducing the Internet of Things (IoT) technologies into physical stores. Currently, online retailers have access to information on the information consumers look at, what they purchase, and what they don’t. Intel believes physical stores should have that same information and is planning to invest $100 million in the retail industry over the next five years. Intel has created the concept of the ‘connected store‘ and will plan to implement real-time digital signage, intelligent point-of-sale terminals, smart media carts, and advanced self-service kiosks to create a more personalized, informed and satisfied shopping experience for customers. This will enable retailers to deliver content and information targeted to individual consumers. In turn, Intel hopes this will create more loyal and repeat customers and put a stop to the declining mall foot traffic."
+                android:textColor="#fff"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="163dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginTop="8dp"
+        android:src="@mipmap/ph"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <TextView
+
+        android:layout_width="360dp"
+        android:layout_height="124dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="Physical-Digital Integrations"
+
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        app:fontFamily="@font/alfa_slab_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+
+</android.support.constraint.ConstraintLayout>

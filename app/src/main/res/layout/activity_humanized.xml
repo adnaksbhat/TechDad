@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/rum"
+    android:layout_height="match_parent"
+    tools:context=".Humanized">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="352dp"
+        android:layout_height="234dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="At the heart of things, humanizing big data seems like something that would be the opposite of productive and certainly counterintuitive. The reality is that big data must start and end with humanity. Because people are the source of big data, they must also be heavily involved in the processing and the interpretation.
+
+“Basically, what we’re seeing is that new elements of behavior are affecting data, such as politics, opinions and agents interacting with and influencing each other. So, in addition to looking at data in the traditional way, we must now consider political and social structures, and how people learn from and influence each other; we must consider how ideas flow through social networks, what motivates people to contribute to discussions, and the consequences of engagement.”
+
+This quote is from Mindjet Scientist Anna Gordon. The reality is that you cannot isolate data from the motivational source. If you strip away that human component then big data is worth far less and offers far less information. When that happens, no matter how perfect the machine, the big data is typically interpreted incorrectly."
+                android:textColor="#fff"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="164dp"
+        android:layout_height="145dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@mipmap/hu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="Humanized Big Data"
+
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        app:fontFamily="@font/alfa_slab_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</android.support.constraint.ConstraintLayout>
